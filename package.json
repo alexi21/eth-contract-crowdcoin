@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "test": "mocha"
+    "start": "node server.js NODE_ENV=production",
+    "test": "mocha",
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
